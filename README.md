@@ -49,9 +49,9 @@ vim chromedriver.exe
 
 ### 2.3 提取数据
 
-#### 2.3.1 ~~野路子！~~使用 Selenium 提供的 find_element() 方法
+#### 2.3.1 <del>野路子！</del>使用 Selenium 提供的 find_element() 方法
 
-效率奇慢，可能是每一次 find_element() python 都要和 WebDriver 通信~~（大概（我页不是很清楚（猜的~~。导致时间开销很大了，而且本身 find_element() 也很慢。
+效率奇慢，可能是每一次 find_element() python 都要和 WebDriver 通信<del>（大概（我也不是很清楚（猜的</del>。导致时间开销很大了，而且本身 find_element() 也很慢。
 
 ~~当然，也可能是我写的屎山代码导致的。毕竟很多元素不一定是每一个卡片都会有的，所以就只能先尝试能不能取到，取不到再做处理（~~
 
