@@ -1,0 +1,9 @@
+{
+    "phone":"用户名/手机号",
+    "password": "密码",
+    "chromedriver_path": "./chromedriver-win64/chromedriver.exe",
+    "chrome_path": "./chrome-win64/chrome.exe",
+    "user_data_path": "/config/user_data",
+    "js_stealth_path": "./js/stealth.min.js",
+    "js_get_items_data_path": "./js/get_items_data.js"
+}

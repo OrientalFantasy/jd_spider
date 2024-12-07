@@ -1,0 +1,31 @@
+{
+    "interface": {
+        "login_text": "//*[@id='ttbar-login']/a[1]/span[2]",
+        "items_list": "//*[@id='J_goodsList']/ul/li",
+        "item": {
+            "item_description": "div/div[3]/a/em",
+            "item_price": "div/div[2]/strong",
+            "item_price_notes": {
+                "xpath": "div/div[2]/span[2]",
+                "css": "div.p-price > strong + span"
+            },
+            "comment_count": "div/div[4]/strong/a",
+            "store_name": "div/div[5]/span/a",
+            "product_tags": "div/div[6]"
+        },
+        "page_num": "//*[@id='J_bottomPage']/span[2]/em[1]/b",
+        "page_jump_input": "#J_bottomPage > span.p-skip > input",
+        "page_jump_button": "#J_bottomPage > span.p-skip > a",
+        "logged": "//*[@id='ttbar-login']/div[1]/a"
+    },
+    "login": {
+        "username": "//*[@id='loginname']",
+        "password": "//*[@id='nloginpwd']",
+        "button":"//*[@id='loginsubmit']"
+        
+    },
+    "search": {
+        "input": "//*[@id='keyword']",
+        "button": "/html/body/div[2]/form/input[4]"
+    }
+}
